@@ -154,6 +154,7 @@
 	modules += new /obj/item/weapon/bonesetter(src)
 	modules += new /obj/item/weapon/circular_saw(src)
 	modules += new /obj/item/weapon/surgicaldrill(src)
+	modules += new /obj/item/weapon/soap/nanotrasen(src)
 
 	emag = new /obj/item/weapon/reagent_containers/spray(src)
 
