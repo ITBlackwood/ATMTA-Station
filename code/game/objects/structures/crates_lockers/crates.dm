@@ -554,7 +554,17 @@
 	icon_state = "largermetal"
 	icon_opened = "largermetalopen"
 	icon_closed = "largermetal"
+/*
+/obj/structure/closet/crate/secure/large/reinforced/supermatter
+	name = "Supermatter Shard Crate"
+	desc = "A heavy and hot crate with supermatter shard inside."
 
+/obj/structure/closet/crate/secure/large/reinforced/supermatter/New()
+	...()
+	new /obj/machinery/power/supermatter_shard(src)
+
+nerabotaushee govno
+*/
 /obj/structure/closet/crate/hydroponics
 	name = "hydroponics crate"
 	desc = "All you need to destroy those pesky weeds and pests."
@@ -616,3 +626,16 @@
 	icon_state = "electricalcrate"
 	icon_opened = "electricalcrateopen"
 	icon_closed = "electricalcrate"
+
+/obj/structure/closet/crate/engineering/teg
+	name = "Thermo-Electric Generator Crate"
+	desc =" A crate with TEG."
+	icon_state = "electricalcrate"
+	icon_opened = "electricalcrateopen"
+	icon_closed = "electricalcrate"
+
+/obj/structure/closet/crate/engineering/teg/New()
+	..()
+	new /obj/machinery/power/generator(src)
+	new /obj/item/pipe/circulator(src)
+	new /obj/item/pipe/circulator(src)
