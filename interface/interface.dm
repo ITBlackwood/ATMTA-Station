@@ -47,7 +47,7 @@
 	set desc = "Посетите наш Discord."
 	set hidden = 1
 	if(config.forumurl)
-		if(alert("Это будет открыто в браузере. Продолжить?",,"Да","Нет")=="No")
+		if(alert("Это будет открыто в браузере. Продолжить?",,"Да","Да")=="No")
 			return
 		src << link(config.forumurl)
 	else
@@ -59,7 +59,7 @@
 	set desc = "Посмотреть правила"
 	set hidden = 1
 	if(config.rulesurl)
-		if(alert("Это будет открыто в браузере. Продолжить?",,"Да","Нет")=="No")
+		if(alert("Это будет открыто в браузере. Продолжить?",,"Да","Да")=="No")
 			return
 		src << link(config.rulesurl)
 	else
@@ -71,7 +71,7 @@
 	set desc = "Помогите серверу."
 	set hidden = 1
 	if(config.donationsurl)
-		if(alert("Это будет открыто в браузере. Продолжить?",,"Да","Нет")=="No")
+		if(alert("Это будет открыто в браузере. Продолжить?",,"Да","Да")=="No")
 			return
 		src << link(config.donationsurl)
 	else
