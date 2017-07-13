@@ -3,7 +3,7 @@
 	set desc = "Area to jump to"
 	set category = "Admin"
 
-	if(!check_rights(R_ADMIN))
+	if(!check_rights(R_ADMIN|R_MOD))
 		return
 
 	if(!A)
@@ -46,7 +46,7 @@
 	set category = "Admin"
 	set name = "Jump to Mob"
 
-	if(!check_rights(R_ADMIN))
+	if(!check_rights(R_ADMIN|R_MOD))
 		return
 
 	log_admin("[key_name(usr)] jumped to [key_name(M)]")
@@ -79,7 +79,7 @@
 	set category = "Admin"
 	set name = "Jump to Key"
 
-	if(!check_rights(R_ADMIN))
+	if(!check_rights(R_ADMIN|R_MOD))
 		return
 
 	var/list/keys = list()
