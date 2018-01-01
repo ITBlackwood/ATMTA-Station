@@ -2203,6 +2203,7 @@
 #include "hyntatmta\code\DjSmail1shit\vending.dm"
 #include "hyntatmta\code\DjSmail1shit\vending2.dm"
 #include "hyntatmta\code\DjSmail1shit\vending3.dm"
+#include "hyntatmta\code\DjSmail1shit\vending4.dm"
 #include "hyntatmta\code\game\jobs\prisonlist.dm"
 #include "hyntatmta\code\game\jobs\job\prisoner.dm"
 #include "hyntatmta\code\game\machinery\procs.dm"
