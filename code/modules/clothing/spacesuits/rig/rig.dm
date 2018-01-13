@@ -15,6 +15,7 @@
 	req_one_access = list()
 	req_access = list()
 	w_class = WEIGHT_CLASS_BULKY
+	actions_types = list(/datum/action/item_action/set_internals)
 
 	// These values are passed on to all component pieces.
 	armor = list(melee = 10, bullet = 5, laser = 10, energy = 5, bomb = 10, bio = 100, rad = 75)
@@ -96,6 +97,21 @@
 	if(src.loc == usr)
 		to_chat(usr, "The maintenance panel is [open ? "open" : "closed"].")
 		to_chat(usr, "Hardsuit systems are [offline ? "<font color='red'>offline</font>" : "<font color='green'>online</font>"].")
+
+
+/obj/item/weapon/rig/verb/air_switch(mob/user as mob)
+	set name = "Air Switch"
+	set category = "IC"
+	set src in range(1)
+	if(air_supply && istype(air_supply, /obj/item/weapon/tank/oxygen))
+		air_supply.toggle_internals(user)
+
+/obj/item/weapon/rig/ui_action_click(mob/user, actiontype)
+	if(actiontype == /datum/action/item_action/set_internals)
+		air_supply.toggle_internals(user)
+
+
+
 
 /obj/item/weapon/rig/New()
 	..()

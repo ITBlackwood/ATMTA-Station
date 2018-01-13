@@ -229,10 +229,11 @@
 	desc = "A complex web of tubing and needles suitable for hardsuit use."
 
 	charges = list(
-		list("synaptizine",   "synaptizine",   0, 30),
-		list("hydrocodone",   "hydrocodone",   0, 30),
+		list("Salicylic Acid",   "sal_acid",   0, 30),
+		list("omnizine",   "omnizine",   0, 30),
 		list("nutrients",     "nutriment",     0, 80),
-		)
+		list("saline-glucose",   "salglu_solution", 0, 30),
+	)
 
 	interface_name = "combat chem dispenser"
 	interface_desc = "Dispenses loaded chemicals directly into the bloodstream."

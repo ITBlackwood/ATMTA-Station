@@ -888,6 +888,25 @@ var/list/ghostteleportlocs = list()
  	name = "Atmospherics Distribution Loop"
  	icon_state = "atmos"
 
+//BOY NEXT DOOR
+/area/dungeon
+	ambientsounds = list('hyntatmta/sound/Zerg-Petooh/dungeon1.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon2.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon3.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon4.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon5.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon6.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon7.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon8.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon9.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon10.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon11.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon12.ogg',
+						 'hyntatmta/sound/Zerg-Petooh/dungeon666.ogg',
+		                 )
+	name = "Darkest Dungeon"
+	icon_state = "green"
+
 //Maintenance
 /area/maintenance
 	ambientsounds = list('sound/ambience/ambimaint1.ogg', 'sound/ambience/ambimaint2.ogg', 'sound/ambience/ambimaint3.ogg', 'sound/ambience/ambimaint4.ogg', 'sound/ambience/ambimaint5.ogg')
