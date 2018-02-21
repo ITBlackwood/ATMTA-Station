@@ -2224,6 +2224,7 @@
 #include "hyntatmta\code\game\objects\structures\watercloset.dm"
 #include "hyntatmta\code\modules\admin\verbs\atmta_secrets.dm"
 #include "hyntatmta\code\modules\admin\verbs\striketeam_doom.dm"
+#include "hyntatmta\code\modules\admin\verbs\whitelist.dm"
 #include "hyntatmta\code\modules\client\preference\loadout\loadout_karma.dm"
 #include "hyntatmta\code\modules\clothing\clothing.dm"
 #include "hyntatmta\code\modules\clothing\head\helmet.dm"
